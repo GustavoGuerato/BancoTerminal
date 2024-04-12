@@ -1,0 +1,128 @@
+[2024-04-02 22:52:54.306] [DISPLAY] [Main ] [sysinfo] OS Version: Major: 10 Minor: 0 Build: 19045 Service Pack: 
+[2024-04-02 22:52:54.315] [DISPLAY] [Main ] [main] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2024-04-02 22:52:54.328] [DISPLAY] [Main ] [minmode] Running in Epic mode.
+[2024-04-02 22:52:54.328] [DISPLAY] [Main ] [minmode] Title Id: gta5
+[2024-04-02 22:52:54.328] [DISPLAY] [Main ] [minmode] Location: C:\Program Files\Epic Games\GTAV
+[2024-04-02 22:52:54.328] [DISPLAY] [Main ] [launcher] Opening log file.
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -epicAppId=gta5  -AUTH_LOGIN=unused -AUTH_PASSWORD=aab6be71c4014a0b89482b9b0067396d -AUTH_TYPE=exchangecode -epicapp=9d2d0eb64d5c44529cece33fe2a46482 -epicenv=Prod -EpicPortal  -epicusername="Otorix_" -epicuserid=4f5014836f5b45c1a6439a66e23d786d -epiclocale=pt-BR -epicsandboxid=0584d2013f0149a791e7b9bad0eec102 -rlrosDomainEnv=prod @args.txt
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main] P4 Version: 
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main] RGL Branch: release_02
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main] Version: 1.0.87.1898
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main] Parameters:
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -skipPatcherCheck
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -epicAppId=gta5
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -AUTH_LOGIN=unused
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -AUTH_PASSWORD=aab6be71c4014a0b89482b9b0067396d
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -AUTH_TYPE=exchangecode
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -epicapp=9d2d0eb64d5c44529cece33fe2a46482
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -epicenv=Prod
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -EpicPortal
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -epicusername=Otorix_
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -epicuserid=4f5014836f5b45c1a6439a66e23d786d
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -epiclocale=pt-BR
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -epicsandboxid=0584d2013f0149a791e7b9bad0eec102
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     -rlrosDomainEnv=prod
+[2024-04-02 22:52:54.330] [DISPLAY] [Main ] [main]     @args.txt
+[2024-04-02 22:52:54.346] [DISPLAY] [Main ] [titlemanager] Installed titles:
+[2024-04-02 22:52:54.346] [DISPLAY] [Main ] [titlemanager]  Title                             Progress               Version              Location                                                    
+[2024-04-02 22:52:54.351] [DISPLAY] [Main ] [svc] Service version: 1.0.87.1898 (1.0.87.1898)
+[2024-04-02 22:52:54.375] [DISPLAY] [Main ] [fileutils] Version: 2.3.0.2 | 1.0.87.1898 | FFP
+[2024-04-02 22:52:54.389] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2024-04-02 22:52:54.900] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2024-04-02 22:52:55.154] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-04-02 22:52:55.156] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.19045) >= 10
+[2024-04-02 22:52:55.162] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2024-04-02 22:52:55.271] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2024-04-02 22:52:55.271] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2024-04-02 22:52:55.271] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2024-04-02 22:52:55.271] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2024-04-02 22:52:56.146] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2024-04-02 22:52:56.146] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2024-04-02 22:52:56.146] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2024-04-02 22:52:56.149] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: No update
+[2024-04-02 22:52:56.152] [DISPLAY] [Workr] [launcher] No self-update, continuing.
+[2024-04-02 22:52:56.152] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
+[2024-04-02 22:52:56.155] [DISPLAY] [Workr] [preqmanager] The Social Club version available matches that currently installed (both: 2.3.0.2)
+[2024-04-02 22:52:56.155] [DISPLAY] [Workr] [titleupdater] No prerequisites to install.
+[2024-04-02 22:52:56.155] [DISPLAY] [Workr] [launcher] Checking minimum SDK requirement
+[2024-04-02 22:52:56.167] [DISPLAY] [Workr] [launcher] Completed Social Club Pre-initialization tasks
+[2024-04-02 22:52:57.448] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2024-04-02 22:52:57.448] [DISPLAY] [Main ] [external] Notifying Social Club UI about external launch...
+[2024-04-02 22:52:57.448] [DISPLAY] [Admin] [external] Setting up Epic title...
+[2024-04-02 22:52:57.449] [DISPLAY] [Admin] [metadatamanager] Read external Epic metadata: gta5
+[2024-04-02 22:52:57.710] [DISPLAY] [Main ] [launcher] Time to start up: 3424 ms
+[2024-04-02 22:52:57.713] [DISPLAY] [Main ] [ui_mainwindow] Using DPI 96,96
+[2024-04-02 22:52:57.713] [DISPLAY] [Main ] [ui_mainwindow] Using UI Scale: 1.00
+[2024-04-02 22:52:57.713] [DISPLAY] [Main ] [ui_mainwindow] Using saved geometry: 320,220 (1024 x 600)
+[2024-04-02 22:52:57.745] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2024-04-02 22:53:00.470] [DISPLAY] [Main ] [launcher] OnEpicEvent :: 0 received
+[2024-04-02 22:53:01.427] [DISPLAY] [Admin] [external] Epic ownership request indicated valid entitlement of at least once audience
+[2024-04-02 22:53:01.436] [DISPLAY] [Admin] [external] Ready to attempt a launch.
+[2024-04-02 22:53:04.016] [DISPLAY] [Main ] [launcher] Presence Event - Signed In
+[2024-04-02 22:53:04.016] [DISPLAY] [Main ] [launcher] User 'Otorix_' is now signed in
+[2024-04-02 22:53:04.024] [DISPLAY] [Main ] [launcher] Presence Event :: Went Online
+[2024-04-02 22:53:04.024] [DISPLAY] [Main ] [external] Preparing to update/launch...
+[2024-04-02 22:53:04.024] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2024-04-02 22:53:04.024] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2024-04-02 22:53:04.068] [DISPLAY] [Main ] [scuicallbacks] Enabling Downloading
+[2024-04-02 22:53:04.083] [DISPLAY] [Main ] [launcher] Friend Event - Friends are Available
+[2024-04-02 22:53:04.558] [DISPLAY] [Main ] [scuicallbacks] Setting updated
+[2024-04-02 22:53:04.558] [DISPLAY] [Main ] [scuicallbacks] Launch requested
+[2024-04-02 22:53:04.558] [DISPLAY] [Main ] [scuicallbacks] Launch requested by user: gta5, 
+[2024-04-02 22:53:04.558] [DISPLAY] [Main ] [external] Attempting external title launch...
+[2024-04-02 22:53:05.043] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2024-04-02 22:53:05.043] [DISPLAY] [Admin] [external] Ready to attempt a launch.
+[2024-04-02 22:53:05.050] [DISPLAY] [19164] [gamelaunch] RGL is up to date (current: 1.0.87.1898, minimum: 1.0.26.268)
+[2024-04-02 22:53:05.050] [DISPLAY] [19164] [gamelaunch] Grand Theft Auto V is up to date (current: 1.0.3095.0, minimum: 1.0.1868.0)
+[2024-04-02 22:53:06.099] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2024-04-02 22:53:06.099] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2024-04-02 22:53:07.119] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2024-04-02 22:53:08.540] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for title 'gta5'
+[2024-04-02 22:53:08.557] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for title 'gta5'
+[2024-04-02 22:53:08.557] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for title 'gta5' = enabled
+[2024-04-02 22:53:08.557] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for title 'gta5'
+[2024-04-02 22:53:09.337] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta5'
+[2024-04-02 22:53:09.337] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for title 'gta5'
+[2024-04-02 22:53:10.065] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for title 'gta5'
+[2024-04-02 22:53:10.065] [DISPLAY] [Main ] [cloudsaveop] Waiting for conflict resolutions for title 'gta5'
+[2024-04-02 22:53:10.082] [DISPLAY] [Main ] [scuimessage] Conflict with file 'SGTA50015' (type: 7)
+[2024-04-02 22:53:10.082] [DISPLAY] [Main ] [scuimessage] Cloud save conflicts, requesting conflict resolution.
+[2024-04-02 22:53:20.704] [DISPLAY] [Main ] [scuicallbacks] Cloud Conflicts Resolved
+[2024-04-02 22:53:20.704] [DISPLAY] [Main ] [cloudsaveop] Conflict resolutions received for title 'gta5'
+[2024-04-02 22:53:20.704] [DISPLAY] [Main ] [cloudsaveop] Sending conflict resolution telemetry for title 'gta5'
+[2024-04-02 22:53:20.704] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for title 'gta5'
+[2024-04-02 22:53:23.314] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for title 'gta5'
+[2024-04-02 22:53:23.314] [DISPLAY] [Main ] [cloudsaveop] Getting update files for title 'gta5'
+[2024-04-02 22:53:23.331] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for title 'gta5'
+[2024-04-02 22:53:23.331] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for title 'gta5'
+[2024-04-02 22:53:23.348] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for title 'gta5'
+[2024-04-02 22:53:23.348] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for title 'gta5'
+[2024-04-02 22:53:23.364] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for title 'gta5'
+[2024-04-02 22:53:23.397] [DISPLAY] [net2 ] [audio] Valid Audio Device: true
+[2024-04-02 22:53:24.856] [DISPLAY] [19164] [gamelaunch] Launching game...
+[2024-04-02 22:53:24.856] [DISPLAY] [19164] [gamelaunch]  Path: C:\Program Files\Epic Games\GTAV\GTA5.exe
+[2024-04-02 22:53:24.856] [DISPLAY] [19164] [gamelaunch]  Command Line: "C:\Program Files\Epic Games\GTAV\GTA5.exe" -skipPatcherCheck -epicAppId=gta5 -AUTH_LOGIN=unused -AUTH_PASSWORD=aab6be71c4014a0b89482b9b0067396d -AUTH_TYPE=exchangecode -epicapp=9d2d0eb64d5c44529cece33fe2a46482 -epicenv=Prod -EpicPortal -epicusername=Otorix_ -epicuserid=4f5014836f5b45c1a6439a66e23d786d -epiclocale=pt-BR -epicsandboxid=0584d2013f0149a791e7b9bad0eec102 -rlrosDomainEnv=prod @args.txt @commandline.txt -enableCrashpad -useEpic -scCommerceProvider=4 -rglLanguage=pt-PT
+[2024-04-02 22:53:24.856] [DISPLAY] [19164] [gamelaunch]  Working Directory: C:\Program Files\Epic Games\GTAV
+[2024-04-02 23:06:04.458] [DISPLAY] [19164] [gamelaunch] Game exited with code 0xc0000005 (3221225477)
+[2024-04-02 23:06:04.458] [DISPLAY] [19164] [crashdetection] Game left no exit file.
+[2024-04-02 23:06:04.458] [ ERROR ] [19164] [crashdetection] Exit code 0xc0000005 indicates a fatal game exit (reason: STATUS_ACCESS_VIOLATION)
+[2024-04-02 23:06:04.518] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for title 'gta5'
+[2024-04-02 23:06:04.535] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for title 'gta5'
+[2024-04-02 23:06:04.536] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for title 'gta5' = enabled
+[2024-04-02 23:06:04.536] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for title 'gta5'
+[2024-04-02 23:06:05.315] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta5'
+[2024-04-02 23:06:05.315] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for title 'gta5'
+[2024-04-02 23:06:05.332] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for title 'gta5'
+[2024-04-02 23:06:05.332] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for title 'gta5'
+[2024-04-02 23:06:05.349] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for title 'gta5'
+[2024-04-02 23:06:05.349] [DISPLAY] [Main ] [cloudsaveop] Getting update files for title 'gta5'
+[2024-04-02 23:06:05.365] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for title 'gta5'
+[2024-04-02 23:06:05.365] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for title 'gta5'
+[2024-04-02 23:06:05.382] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for title 'gta5'
+[2024-04-02 23:06:05.382] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for title 'gta5'
+[2024-04-02 23:06:05.399] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for title 'gta5'
+[2024-04-02 23:06:06.330] [DISPLAY] [19164] [launcher] Shutdown requested! Forced: false
+[2024-04-02 23:06:06.330] [DISPLAY] [Main ] [launcher] StartShutdown - Now in progress
+[2024-04-02 23:06:06.330] [DISPLAY] [Main ] [svc] Stopping the background service.
+[2024-04-02 23:06:08.472] [DISPLAY] [Main ] [app] Application quit requested (exit code: 0)
