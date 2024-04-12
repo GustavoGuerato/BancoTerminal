@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slide Igual Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+  </head>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #carrossel {
+      position: absolute;
+      width: 100%;
+      height: 150px;
+      background: greenyellow;
+      overflow: hidden;
+    }
+
+    #container {
+      position: absolute;
+      width: auto;
+      height: 100%;
+      background: green;
+      display: inline-flex;
+      transition: 0.6s ease-in-out;
+    }
+
+    #container #item {
+      position: relative;
+      margin: 0 7px;
+      width: 150px;
+      height: 100%;
+      background: gray;
+      z-index: 2;
+    }
+
+    #container #item img {
+      width: 100%;
+      height: 100%;
+    }
+
+    #btnleft {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 30px;
+      height: 100%;
+      opacity: 0.3;
+      cursor: pointer;
+      z-index: 3;
+    }
+
+    #btnright {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 30px;
+      height: 100%;
+      opacity: 0.3;
+      cursor: pointer;
+      z-index: 3;
+    }
+
+    #container #limitador {
+      position: absolute;
+      margin: 0 7px;
+      width: 150px;
+      height: 100%;
+      opacity: 0;
+      right: 0;
+      z-index: 1;
+      background: blue;
+    }
+  </style>
+
+  <body>
+    <div id="carrossel">
+      <button type="button" id="btnleft"><</button>
+
+      <div id="container">
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Seta.png" /></div>
+
+        <div id="item"><img src="./images/homem_aranha.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Sons OF Anarchy.png" /></div>
+
+        <div id="item"><img src="./images/Breaking Bad.png" /></div>
+
+        <div id="item"><img src="./images/Toy Story 2.png" /></div>
+
+        <div id="limitador">Limitador</div>
+      </div>
+
+      <button type="button" id="btnright">></button>
+    </div>
+  </body>
+
+  <script>
+    //variaveis de contagem da direção
+
+var num = 150;
+var num2 = 150;
+
+//slide do botão direito
+
+var btnRight = document.getElementById('btnright');
+
+btnRight.addEventListener('click', () => {
+
+    var limi = document.getElementById('limitador').getBoundingClientRect().left;
+
+    var limit = Math.round(limi);
+
+    var er = document.getElementById('btnright').getBoundingClientRect().left;
+
+    var ref = Math.round(er);
+
+    var slideContainer = document.getElementById('container');
+
+    var carrossel = document.getElementById('carrossel');
+
+
+    if (limit > ref) {
+
+        slideContainer.style.transform = 'translateX(-' + num + 'px)';
+
+        num = num + 150;
+
+        num2 = num2 - 150;
+
+    } else {
+
+        var stoped = ref * slideContainer.clientWidth / carrossel.clientWidth - carrossel.clientWidth + 100;
+
+        var stopedRound = Mtah.round(stoped);
+
+        slideContainer.style.transform = 'translateX(-' + stopedRound + 'px)';
+
+
+    }
+
+
+});
+
+
+//slide botão esquerdo
+
+var btnLeft = document.getElementById('btnleft');
+
+btnLeft.addEventListener('click', () => {
+
+
+    var limi = document.getElementById('limitador').getBoundingClientRect().left;
+
+    var limit = Math.round(limi);
+
+    var er = document.getElementById('btnleft').getBoundingClientRect().left;
+
+    var ref = Math.round(er);
+
+    var slideContainer = document.getElementById('container');
+
+    var carrossel = document.getElementById('carrsossel');
+
+    var slide = slideContainer.getBoundingClientRect().left;
+
+    if (slide < ref) {
+
+        slideContainer.style.transform = 'translateX(' + num2 + 'px)';
+
+        num = num - 150;
+        num2 = num2 + 150;
+
+    } else {
+
+        slideContainer.style.transform = 'translateX(0)';
+
+        num = 150;
+
+    }
+
+
+});
+  </script>
+</html>
