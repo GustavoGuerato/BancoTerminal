@@ -33,6 +33,9 @@ h1 {
     .item {
       padding: 0 2px;
       transition: $duration all;
+      width: 341px;
+      height: 192px;
+      cursor: pointer;
 
       &:hover {
         margin: 0 40px;
@@ -79,8 +82,5 @@ h1 {
 @media only screen and (max-width: 600px) {
   a.arrow__btn {
     display: none;
-  }
-  .wrapper section {
-    width: calc(100vw + 40px); /* Ajuste a largura para telas menores */
   }
 }

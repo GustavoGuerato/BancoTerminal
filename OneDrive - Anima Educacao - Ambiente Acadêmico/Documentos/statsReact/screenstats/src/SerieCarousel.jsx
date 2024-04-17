@@ -1,32 +1,40 @@
 import React from "react";
 import "./carousel.scss";
+import breakingbad from "./images/Breaking Bad.jpg";
+import dinossauro from "./images/dinossauro.jpg";
+import velozes from "./images/velozes_e_furiosos.png";
+import homemaranha from "./images/HomemAranha.png";
+import toystory from "./images/Toy_Story2.png";
 
-function NetflixGallery() {
+function SerieGaleria() {
   return (
     <div className="wrapper">
-      <section id="section1">
-        <a href="#section3" className="arrow__btn">
+      <section id="section4">
+        <a href="#section6" className="arrow__btn">
           ‹
         </a>
         <div className="item">
-          <img
-            src="https://occ-0-1567-1123.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABRvngexxF8H1-OzRWFSj6ddD-aB93tTBP9kMNz3cIVfuIfLEP1E_0saiNAwOtrM6xSOXvoiSCMsihWSkW0dq808-R7_lBnr6WHbjkKBX6I3sD0uCcS8kSPbRjEDdG8CeeVXEAEV6spQ.webp"
-            alt="Netflix Image 1"
-          />
+          <img src={breakingbad} alt="Netflix Image 1" className="item" />
         </div>
         <div className="item">
-          <img
-            src="https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABZEK-7pZ1H5FD4cTyUb9qB_KeyJGz5p-kfPhCFv4GU_3mbdm8Xfsy4IBchlG9PFNdGff8cBNPaeMra72VFnot41nt0y3e8RLgaVwwh3UvyM2H2_MkmadWbQUeGuf811K7-cxJJh7gA.jpg"
-            alt="Netflix Image 2"
-          />
+          <img src={velozes} alt="Netflix Image 2" className="item" />
         </div>
-        {/* Adicione as outras imagens aqui */}
-        <a href="#section2" className="arrow__btn">
+        <div className="item">
+          <img src={dinossauro} alt="" className="item" />
+        </div>
+        <div className="item">
+          <img src={homemaranha} alt="" className="item" />
+        </div>
+        <div className="item">
+          <img src={toystory} alt="" className="item" />
+        </div>
+
+        <a href="#section5" className="arrow__btn">
           ›
         </a>
       </section>
-      <section id="section2">
-        <a href="#section1" className="arrow__btn">
+      <section id="section5">
+        <a href="#section4" className="arrow__btn">
           ‹
         </a>
         <div className="item">
@@ -42,12 +50,12 @@ function NetflixGallery() {
           />
         </div>
         {/* Adicione as outras imagens aqui */}
-        <a href="#section3" className="arrow__btn">
+        <a href="#section6" className="arrow__btn">
           ›
         </a>
       </section>
-      <section id="section3">
-        <a href="#section2" className="arrow__btn">
+      <section id="section6">
+        <a href="#section5" className="arrow__btn">
           ‹
         </a>
         <div className="item">
@@ -57,7 +65,7 @@ function NetflixGallery() {
           />
         </div>
         {/* Adicione as outras imagens aqui */}
-        <a href="#section1" className="arrow__btn">
+        <a href="#section4" className="arrow__btn">
           ›
         </a>
       </section>
@@ -65,4 +73,4 @@ function NetflixGallery() {
   );
 }
 
-export default NetflixGallery;
+export default SerieGaleria;
