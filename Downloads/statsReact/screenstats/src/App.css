@@ -11,7 +11,7 @@ body {
   /* Alterado para preto */
   color: #fff;
   /* Alterado para branco */
-  
+
 }
 
 a {
@@ -325,4 +325,13 @@ a {
 .overlay-menu li a:active {
   color: rgb(28, 121, 184);
   transition: color 0.3s ease;
+}
+
+h1 {
+  color: #fff;
+  /* Definindo a cor do texto como branco */
+  margin-left: 0;
+  /* Removendo qualquer margem à esquerda */
+  text-align: left;
+  /* Alinhando o texto à esquerda */
 }
